@@ -1,0 +1,293 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Comatible"content="IE=edge,chrome=1"/>
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+    crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+    crossorigin="anonymous"></script> 
+	
+<!-- Add jQuery library -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+
+<!-- Add fancyBox -->
+<link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.7" type="text/css" media="screen" />
+<script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.7"></script>
+
+<script>
+$(document).ready(function() {
+	$(".fancybox-button").fancybox({
+		prevEffect		: 'none',
+		nextEffect		: 'none',
+		closeBtn		: false,
+		helpers		: {
+			title	: { type : 'inside' },
+			buttons	: {}
+		}
+	});
+});
+</script>
+  	
+
+  <style>
+  
+.blog img {
+    transition-duration: 4s;
+    margin: 0 auto;
+    display: block;
+}
+.blog img:hover {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    z-index: 1;
+}
+
+
+.photo img {
+  flex-basis: 100%;
+  width: 100px;
+}
+
+.photo:hover {
+  opacity: 1;
+  transition:0.3s all linear;
+  transform: scale(1.1);
+}
+
+div.extra-margin {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+</style>
+
+
+</head>
+
+<body>
+  <div class="header">
+    <b>
+      <center>
+        <h1>Tu i Tam</h1>
+      </center>
+    </b>
+    <u>
+      <center>
+        <i>
+          <h5>podróże i wspinaczka </h5>
+        </i>
+      </center>
+    </u>
+
+    <nav class="navbar navbar-expand-sm bg-light navbar-light justify-content-center">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="blog.html">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="podroze.html">Podróże</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="wspinanie.html">Wspinanie</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="omnie.html">O mnie</a>
+        </li>
+      </ul>
+    </nav>
+
+  </div>
+
+  <div class="content">
+
+    <center>
+      <h5>Malta 2017</h5>
+    </center>
+
+    <center>
+      <h1>Długo wyczekiwane wakacje</h1>
+    </center>
+
+    <div class="container">
+
+      <div class="row intro">
+        <div class="col-md-12 intro-part">
+          Malta – wyspa na której przez 300 dni w roku świeci słońce. Raj na wyciągnięcie ręki. Wspaniałe miejsce na wakacje. Wyspa,
+          która zachwyci zarówno miłośników architektury jak i pięknych krajobrazów i nurkowania.
+        </div>
+
+        <div class="col-md-12">
+          <b>
+            <center>MALTA…</center>
+          </b>
+          Mamy to szczęście, że z Krakowa w 2,5 godziny można znaleźć się na Malcie. Wyspie, która jest 990 razy mniejszy niż Polska,
+          a cała jej powierzchnia zmieściłaby się na terenie Wrocławia. Gdzie prawie wszyscy wyznają katolicyzm, a na większości
+          domów widnieją święte obrazy lub figury, gdzie nie ma żadnych rzek ani jezior, ale do zwiedzania jest tyle miejsc,
+          że spokojnie można tam spędzić cały miesiąc i nie zaznać nudy…
+        </div>
+        
+      </div>
+
+      <div class="row extra-margin">
+        <div class="col-md-4 col-xs-4">
+		<div class="blog">
+          <img src="img/malta.jpg" alt="powiekszajacy sie obrazek"  width="300" height="300" class="img-thumbnail">  
+        </div>
+        </div>
+
+        <div class="col-md-4 col-xs-4">
+		<div class="blog">
+          <img src="img/wakacje.jpg" alt="powiekszajacy sie obrazek"  width="300" height="300" class="img-thumbnail">
+		  </div>
+        </div>
+
+        <div class="col-md-4 col-xs-4">
+		<div class="blog">
+          <img src="img/malta2.jpg" alt="powiekszajacy sie obrazek"  width="300" height="300" class="img-thumbnail">
+		  </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <b>
+      <center>Plan zwiedzania</center>
+    </b>
+    <div class="row">
+      <div class="col-md-12">
+
+        Kształtował się on codziennie rano. Nie planowaliśmy, nie zakładaliśmy celów, nie śpieszyliśmy się nigdzie… Mając tygodniowy
+        bilet jedyne, o co mogliśmy się martwić, to to, że braknie nam czasu. Krótka rozpiska przykładowego planu na tygodniowe
+        poznanie Malty i Gozo?
+
+
+        <b>
+          <center>1.Stolica</center>
+        </b>
+
+        Dzień pierwszy: Valletta i Sliema. Nie mogliśmy nie zacząć od zwiedzania stolicy Malty i Wielkiego Portu, który jest chyba
+        najbardziej imponującym portem całego basenu Morza Śródziemnego. Valletta jest piękna, można zagubić się w jej uliczkach
+        i nieskończonej ilości wspaniałych punktów widokowych, uroczych kawiarniach i restauracjach. Nie mona też nie wejść
+        do Konkatedry św. Jana, która olśniewa barokowym przepychem i bogactwem form. No i nacieszyć oczy widokiem obrazów
+        Caravaggia. Trzeba też obowiązkowo zajrzeć do Pałacu Wielkiego Mistrza. Nie można odmówić sobie wypicia kawy w jednej
+        z ulicznych kawiarni i zjedzenia chyba najlepszych lodów na całej Malcie. Vallettę trzeba zobaczyć zarówno w dzień,
+        jak i w nocy i należy pamiętać, że czas w tym mieście biegnie trochę inaczej.
+
+
+		
+
+	
+        <div class="row">
+          <div class="col-md-4 col-xs-4 text-center"> 			      	  
+      <a class="fancybox-button" rel="fancybox-button" href="img/stolica.jpg" >
+	  <img class="center-block" src="img/stolicasmall.jpg" alt="" />	       
+      </a>
+	  
+    </div>
+          <div class="col-md-4 col-xs-4 text-center"> 			      	  
+      <a class="fancybox-button" rel="fancybox-button" href="img/valetta.jpg" >
+	  <img src="img/valettasmall.jpg" alt="" />	       
+      </a>
+          </div>
+
+          <div class="col-md-4 col-xs-4 text-center"> 			      	  
+      <a class="fancybox-button" rel="fancybox-button" href="img/budynek.jpg" >
+	  <img src="img/budyneksmall.jpg" alt="" />	       
+      </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <b>
+      <center>2.Gozo</center>
+    </b>
+
+    Dzień drugi: Gozo, czyli mniejsza i spokojniejsza siostra Malty. Tam oczywiście trzeba zobaczyć punkt obowiązkowy – Azure
+    Window. Lazurowe Okno jest naprawdę malownicze i warto poświęcić chwilę na znalezienie miejsca z dala od zgiełku turystów,
+    tak aby spokojnie usiąść i napatrzeć się na ten cud natury oraz piękno otaczających go klifów. Jako kolejne miejsce warte
+    zobaczenia wybraliśmy wybrzeże w Qbajjar z niesamowitą piaskową formacją, u której stóp rozpościerają się saliny, istniejące
+    tam już od czasów rzymskich. Na koniec spędziliśmy popołudnie i wieczór w Rabacie (Victorii), gdzie obowiązkowo trzeba
+    zobaczyć średniowieczną cytadelę, z której murów widać panoramę prawie całej wyspy. Na końcu warto usiąść na jednym z
+    placów miasta, zamówić coś do picia i posłuchać rozmów lokalnych mieszkańców.
+
+
+    <div class="row">
+      <div class="col-md-6 col-xs-4">
+        <img src="img/gozo.jpg" alt="Podróże" class="img-thumbnail">
+
+      </div>
+
+      <div class="col-md-6 col-xs-4">
+        <img src="img/statek.jpg" alt="Wspinanie" class="img-thumbnail">
+      </div>
+
+    </div>
+
+
+    <b>
+      <center>Trzeba tu wrócić</center>
+    </b>
+
+
+    Tak naprawdę mamy poczucie, że na Malcie pozostało wiele miejsc, których nie zdążyliśmy zobaczyć. Miejsca, które udało nam
+    się odwiedzić utwierdziły nas w przekonaniu, że ta wyspa ma naprawdę wiele do zaoferowania. Nasz plan zwiedzania jest
+    tylko przykładem tego, co można zwiedzić w czasie tygodniowego pobytu na wyspie. Zostało dużo do zobaczenia i jest powód,
+    aby wybrać się tam kolejny raz. Na pewno spokojnie starczy nam atrakcji na kolejne siedem dni. Jedno jest pewne – Malta
+    to wyśmienite miejsce na krótkie wakacje. O tym, co dokładnie zwiedziliśmy, jak wyglądały kolejne dni pobytu na Malcie,
+    czy wszystkie wybrane przez nas miejsca były warte obejrzenia, co koniecznie trzeba zwiedzić (lub zrobić), a co można
+    sobie odpuścić oraz ile to wszystko kosztowało, będzie można przeczytać w kolejnych wpisach – przewodnikach na temat
+    Malty.
+
+
+    <div class="row">
+      <div class="col-md-12 col-xs-4">
+        <img src="img/zachod.jpg" alt="Podróże" class="img-thumbnail">
+
+      </div>
+
+    </div>
+
+
+    <div class="row">
+      <div class="col-md-6">
+
+        <h4>Komentarze:</h4>
+
+
+        <a rel="nofollow" id="cancel-comment-reply-link" href="/formularze/#respond" style="display:none;">Kliknij tutaj, aby anulować odpowiadanie.</a>
+
+        <div class="form-group">
+          <input type="text" name="author" id="author" value="" class="form-control" placeholder="Imię (wymagane)" />
+        </div>
+
+        <div class="form-group">
+          <input type="text" name="email" id="email" value="" class="required form-control" placeholder="Email (wymagane)" aria-required='true'
+          />
+        </div>
+
+        <div class="form-group">
+          <textarea name="comment" id="comment" class="form-control" placeholder="Komentarz"></textarea>
+        </div>
+
+        <input name="submit" type="submit" id="submit" tabindex="5" value="Wyślij komentarz" class="btn btn-primary send-comment-button"
+        />
+        </form>
+
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,71 @@
+  nav.navbar {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .send-comment-button {
+    margin-bottom: 10px;
+}
+
+.row .thumbnail a {
+    text-decoration: none;
+    color: #333;
+}
+
+.row .thumbnail a:hover {
+    text-decoration: underline;
+    color: #333;
+}
+
+.picture-overlay {
+    position: relative;
+}
+
+.picture-overlay .text {
+    opacity: 0;
+    position: absolute;
+    top:50%;
+    left: 10%;  
+    max-width: 80%;
+}
+
+.picture-overlay img {
+    opacity: 1;
+}
+
+.picture-overlay:hover img {
+    opacity: 0.3;
+}
+
+.picture-overlay:hover .text {
+    opacity: 1;
+}
+
+.center-block {
+    float:none;
+}
+
+.text-on-image {
+    position: absolute;
+    font-size: 7vw;
+    color: white;
+    top: 70%;
+    width: 100%;
+    text-align: center;
+    opacity:0.8;
+}
+
+.content {
+    margin-bottom: 20px;
+}
+
+.send-comment-button {
+    margin-bottom: 10px;
+  }
+
+.intro-part, .intro {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
